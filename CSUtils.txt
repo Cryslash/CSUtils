@@ -1,0 +1,10 @@
+## Title: CS Utils
+## Description: Coleção de utilitários modulares e melhorias de qualidade de vida para o ESO.
+## Author: Radamannthes
+## Version: 1.0
+## APIVersion: 101048 101049
+## SavedVariables: CSUtils_SavedVars
+## DependsOn: LibAddonMenu-2.0
+
+Core.lua
+Modules\GuildBankConfirm.lua
