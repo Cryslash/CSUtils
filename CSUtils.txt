@@ -5,6 +5,8 @@
 ## APIVersion: 101048 101049
 ## SavedVariables: CSUtils_SavedVars
 ## DependsOn: LibAddonMenu-2.0
+## OptionalDependsOn: BeamMeUp
 
 Core.lua
 Modules\GuildBankConfirm.lua
+Modules\BeamMeUpTpAlias.lua
