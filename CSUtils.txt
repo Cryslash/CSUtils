@@ -4,9 +4,11 @@
 ## Version: 1.0
 ## APIVersion: 101048 101049
 ## SavedVariables: CSUtils_SavedVars
-## DependsOn: LibAddonMenu-2.0
+## DependsOn: LibAddonMenu-2.0 LibSetDetection LibSets
 ## OptionalDependsOn: BeamMeUp
 
 Core.lua
+Modules\EquippedSets.xml
+Modules\EquippedSets.lua
 Modules\GuildBankConfirm.lua
 Modules\BeamMeUpTpAlias.lua

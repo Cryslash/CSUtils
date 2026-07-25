@@ -30,6 +30,8 @@ end
 
 local function Initialize()
     SLASH_COMMANDS["/tp"] = function(text)
+        if not CSUtils.savedVars.modules[moduleID] then return end
+
         local destination = NormalizeDestination(text)
 
         if not destination then
@@ -43,4 +45,4 @@ local function Initialize()
     end
 end
 
-CSUtils:RegisterModule(moduleID, moduleTitle, moduleDesc, Initialize)
+CSUtils:RegisterModule(moduleID, moduleTitle, moduleDesc, Initialize, true)
