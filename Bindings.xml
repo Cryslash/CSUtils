@@ -1,10 +1,9 @@
 <Bindings>
-    <!-- <Layer name="CS Utils"> -->
     <Layer name="SI_KEYBINDINGS_LAYER_USER_INTERFACE_SHORTCUTS">
         <Category name="Guild Bank">
             <Action name="CSUTILS_RESTACK_GUILDBANK">
                 <Down>CSUtils_RestackGuildBank()</Down>
-            </Action>
+            </Action>            
         </Category>
     </Layer>
 </Bindings>
